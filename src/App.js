@@ -9,15 +9,13 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <HashRouter basename={process.env.PUBLIC_URL}>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/news" element={<Home />} />
-          <Route path="/hell" element={<Home />} />
-          <Route path="/us" element={<AboutUs />} />
-        </Routes>
-      </HashRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/news" element={<Home />} />
+        <Route path="/hell" element={<Home />} />
+        <Route path="/us" element={<AboutUs />} />
+      </Routes>
     </div>
   );
 }
