@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Home from "./pages/Home/Home";
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
           <Route path="/hell" element={<Home />} />
           <Route path="/us" element={<AboutUs />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
