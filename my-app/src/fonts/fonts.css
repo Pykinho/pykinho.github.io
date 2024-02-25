@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Hurme Geometric Sans 4 SemiBold";
+  src: url("./HurmeGeometricSans4-SemiBold.woff2") format("woff2"),
+    url("./HurmeGeometricSans4-SemiBold.woff") format("woff");
+  font-weight: 600; /* Adjust the font weight as needed */
+  font-style: normal;
+}
