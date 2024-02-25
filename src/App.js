@@ -9,19 +9,14 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <BrowserRouter basename="/">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <NavBar />
-        {/* <div className="page"> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/news" element={<Home />} />
           <Route path="/hell" element={<Home />} />
           <Route path="/us" element={<AboutUs />} />
-          {/* <Route path="/materials" element={<Materials />} />
-      <Route path="/tasks" element={<Tasks />} />
-      <Route path="/schedule" element={<SchedulePage />} /> */}
         </Routes>
-        {/* </div> */}
       </BrowserRouter>
     </div>
   );
