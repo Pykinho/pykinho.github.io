@@ -16,9 +16,9 @@ function Box({ title, text, address, icon }) {
           <div className="box-text">
             <p>{text}</p>
           </div>
-          <a href={address} className="blue-btn fright">
+          <Link to={address} className="blue-btn fright">
             więcej »
-          </a>
+          </Link>
         </div>
       </div>
     </StyledBox>

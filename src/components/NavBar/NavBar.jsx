@@ -50,9 +50,12 @@ function NavBar() {
                   </a>
                 </li>
                 <li className="nav-text">
-                  <a href="/us">
+                  {/* <a href="/us">
                     Kontakt <br /> z nami
-                  </a>
+                  </a> */}
+                  <Link to="/us">
+                    Kontakt <br /> z nami
+                  </Link>
                 </li>
               </ul>
             </div>
