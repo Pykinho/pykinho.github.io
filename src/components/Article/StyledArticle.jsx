@@ -13,9 +13,8 @@ export const StyledArticle = styled.div`
     width: 1000px;
   }
   .white-article {
-    width: 100%;
     height: 100%;
-
+    width: 100%;
     padding: 30px;
     text-align: justify;
     background: #ffffff top repeat-x;
@@ -33,15 +32,44 @@ export const StyledArticle = styled.div`
     display: flex;
     justify-content: center;
   }
+
+  .news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      height: 22vh;
+      min-height: 20px;
+      margin: 0 20px;
+    }
+  }
   img {
-    max-width: 150px;
     height: 18vh;
     min-height: 20px;
     margin: 0 20px;
   }
+  .zrzuta {
+    a {
+      margin-left: 20px;
+    }
+  }
 
   .article-text {
     height: 82px;
+    font: 12px "Hurme Geometric Sans 4 SemiBold";
+
+    color: #5a5a5a;
+    text-align: left;
+    p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      margin: 0 0 15px;
+    }
+  }
+  .news-text {
     font: 12px "Hurme Geometric Sans 4 SemiBold";
 
     color: #5a5a5a;
@@ -85,4 +113,18 @@ export const StyledArticle = styled.div`
   }
 
   height: 100%;
+
+  .dupa {
+    height: 35vh;
+    width: 900px;
+  }
+  .dupsko {
+    display: "flex";
+    flexwrap: "wrap";
+    justifycontent: "space-around";
+    overflow: "hidden";
+  }
+  & .css-l086p4-MuiImageListItem-root {
+    object-fit: contain;
+  }
 `;

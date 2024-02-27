@@ -34,14 +34,14 @@ function Home() {
               <Box
                 title={"Aktualności"}
                 icon={box2}
-                address="/"
+                address="/news"
                 text="Dotychczasowe dokonania ojca założyciela Piotra Rockiego"
               />
             </Grid>
             <Grid item xs={3}>
               <Box
                 title={"Piekło Gacka"}
-                address="/"
+                address="/hell"
                 text="gacek kurwo bita kliknij więcej"
               />
             </Grid>
