@@ -72,4 +72,44 @@ export const StyledNavBar = styled.div`
   .wrapper li {
     float: left;
   }
+
+  .navbar-m {
+    background-color: #13cfb7;
+    height: 35px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-top: 60px;
+    z-index: 999;
+  }
+  .row-m {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-m a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 6px;
+  }
+
+  .navbar-m a:hover {
+    color: black;
+  }
+  .nav-text-m {
+    text-transform: uppercase;
+    position: relative;
+    font-family: "Hurme Geometric Sans 4";
+    text-align: center;
+    display: inline-block;
+    padding: 10px 5px;
+
+    padding-top: 11px;
+    margin-bottom: -9px;
+  }
 `;

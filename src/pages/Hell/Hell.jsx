@@ -1,4 +1,5 @@
 import { StyledHell } from "./StyledHell";
+import MediaQuery from "react-responsive";
 import p3 from "../../assets/p3.jpeg";
 import p1 from "../../assets/p1.jpeg";
 import p2 from "../../assets/p2.jpeg";
@@ -42,33 +43,66 @@ function Hell() {
     { img: p8, title: "p8", author: "dupa", cols: 1, rows: 1 },
   ];
   return (
-    <StyledHell>
-      <div className="home">
-        <div className="article">
-          <h1>Piekło Gacka</h1>
-          <Grid
-            container
-            spacing={0}
-            direction="row"
-            justifyContent="space-between"
-            alignItems="center"
-            columns={9}
-          >
-            <Grid item xs={9}>
-              <Article
-                title={
-                  "Jak tam gacek punkciki??? Dalej zliczasz ćwiartki za przypadkowy kontakt wzrokowy?? Nawet trochę mi cię żal XDDDDD"
-                }
-                itemData={itemData}
-                address="/"
-                list={true}
-              />
-            </Grid>
-          </Grid>
-        </div>
-      </div>
-      <Footer />
-    </StyledHell>
+    <>
+      <MediaQuery query="(min-device-width: 1280px)">
+        <StyledHell>
+          <div className="home">
+            <div className="article">
+              <h1>Piekło Gacka</h1>
+              <Grid
+                container
+                spacing={0}
+                direction="row"
+                justifyContent="space-between"
+                alignItems="center"
+                columns={9}
+              >
+                <Grid item xs={9}>
+                  <Article
+                    title={
+                      "Jak tam gacek punkciki??? Dalej zliczasz ćwiartki za przypadkowy kontakt wzrokowy?? Nawet trochę mi cię żal XDDDDD"
+                    }
+                    itemData={itemData}
+                    address="/"
+                    list={true}
+                  />
+                </Grid>
+              </Grid>
+            </div>
+          </div>
+          <Footer />
+        </StyledHell>
+      </MediaQuery>
+      <MediaQuery query="(max-device-width: 1280px)">
+        <StyledHell>
+          <div className="home-m">
+            <div className="article-m">
+              <h1>Piekło Gacka</h1>
+              <Grid
+                container
+                spacing={0}
+                direction="row"
+                justifyContent="space-between"
+                alignItems="center"
+                columns={9}
+              >
+                <Grid item xs={9}>
+                  <Article
+                    title={
+                      "Jak tam gacek punkciki??? Dalej zliczasz ćwiartki za przypadkowy kontakt wzrokowy?? Nawet trochę mi cię żal XDDDDD"
+                    }
+                    itemData={itemData}
+                    address="/"
+                    list={true}
+                  />
+                </Grid>
+              </Grid>
+            </div>
+          </div>
+          <Footer />
+        </StyledHell>
+      </MediaQuery>
+    </>
   );
 }
 

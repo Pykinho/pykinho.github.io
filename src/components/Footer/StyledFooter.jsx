@@ -39,4 +39,43 @@ export const StyledFooter = styled.div`
   img:hover {
     opacity: 1;
   }
+
+  .black-footer-m {
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    font: 6px "Hurme Geometric Sans 4 SemiBold";
+    color: white;
+    padding-bottom: 10px;
+    z-index: 999;
+    position: relative;
+    background-color: black;
+  }
+  .container-m {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 999;
+    position: relative;
+  }
+  .footer-m {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    p {
+      font: bold "Hurme Geometric Sans 4 SemiBold";
+      font-size: 6px;
+      color: gray;
+    }
+    img {
+      max-height: 20px;
+      margin-right: 14px;
+    }
+  }
+  .links {
+    display: flex;
+    justify-content: start;
+    width: 20px;
+  }
 `;

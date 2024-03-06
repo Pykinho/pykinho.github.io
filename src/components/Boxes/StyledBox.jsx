@@ -71,4 +71,69 @@ export const StyledBox = styled.div`
     cursor: pointer;
   }
   height: 100%;
+
+  .container-m {
+    background: white;
+    height: 90px;
+    width: 120px;
+  }
+  .white-box-m {
+    width: 100%;
+    height: 75%;
+
+    padding: 6px;
+    text-align: justify;
+    background: #ffffff top repeat-x;
+    padding-bottom: 6px;
+
+    h5 {
+      font: bold 8px "Hurme Geometric Sans 4 SemiBold";
+      margin: 0 0 10px 0;
+      color: #000000;
+    }
+  }
+  .box-image-m {
+    width: 1px;
+    height: 1px;
+    margin: 0px 20px 40px 0;
+    text-align: center;
+    float: left;
+    img {
+      max-width: 15px;
+      max-height: 15px;
+    }
+  }
+  .box-text-m {
+    font: 6px "Hurme Geometric Sans 4 SemiBold";
+
+    color: #5a5a5a;
+    text-align: left;
+    p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      margin: 0 0 10px;
+    }
+  }
+  .fright {
+    float: right;
+    margin-right: 6px;
+  }
+  .blue-btn-m {
+    display: block;
+    width: 40px;
+    height: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background: #13cfb7;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font: 6px "Hurme Geometric Sans 4 SemiBold";
+  }
 `;
