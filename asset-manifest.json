@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e5ba4192.css",
+    "main.js": "/static/js/main.53209b59.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/wwa4.png": "/static/media/wwa4.a8036aaf9e5db318e99b.png",
+    "static/media/p13.jpeg": "/static/media/p13.885534dbb1e671f823b4.jpeg",
+    "static/media/kalemba.jpg": "/static/media/kalemba.9963bbe2593f3150abf6.jpg",
+    "static/media/kuska.jpg": "/static/media/kuska.069e3ae0d6661a1536e3.jpg",
+    "static/media/p12.jpeg": "/static/media/p12.33086b8fee53383db7e6.jpeg",
+    "static/media/barti.jpg": "/static/media/barti.8852c9442e22a9308687.jpg",
+    "static/media/p2.jpeg": "/static/media/p2.636af7bc55719b491ec4.jpeg",
+    "static/media/p1.jpeg": "/static/media/p1.a95c6a2c3aa7a842e5a2.jpeg",
+    "static/media/simp.WEBP": "/static/media/simp.e62894567c669db57ed6.WEBP",
+    "static/media/pirat.jpg": "/static/media/pirat.d24f1460c031ffac1d24.jpg",
+    "static/media/HurmeGeometricSans4-SemiBold.woff": "/static/media/HurmeGeometricSans4-SemiBold.58970475271f86a19e5c.woff",
+    "static/media/p3.jpeg": "/static/media/p3.763bac931ea8d5f4419b.jpeg",
+    "static/media/gacek.jpeg": "/static/media/gacek.0f07f685f414028b1971.jpeg",
+    "static/media/p11.jpeg": "/static/media/p11.5dae9ebbb76e0c2265f3.jpeg",
+    "static/media/p5.jpeg": "/static/media/p5.8c139e25f39f376bb634.jpeg",
+    "static/media/p6.jpeg": "/static/media/p6.7675236adc737851a4dd.jpeg",
+    "static/media/HurmeGeometricSans4-SemiBold.woff2": "/static/media/HurmeGeometricSans4-SemiBold.36a8ed3f18c64f874aac.woff2",
+    "static/media/p4.jpeg": "/static/media/p4.2587a6fd522f5fbbd1ac.jpeg",
+    "static/media/p15.jpeg": "/static/media/p15.e5c710c93033fe44cf23.jpeg",
+    "static/media/p10.jpeg": "/static/media/p10.9fe9acbbe51b611f73fd.jpeg",
+    "static/media/p7.jpeg": "/static/media/p7.326dfc44895409117489.jpeg",
+    "static/media/p8.jpeg": "/static/media/p8.b3d83b8f6bcb7dd2c385.jpeg",
+    "static/media/p14.jpeg": "/static/media/p14.56a2bcbac559d6ac2b9b.jpeg",
+    "static/media/p9.jpeg": "/static/media/p9.273d12a4d4a1ccb18f22.jpeg",
+    "static/media/legia.png": "/static/media/legia.8e08025bdfc5ec08613d.png",
+    "static/media/turcja.jpg": "/static/media/turcja.6da302d89f70ca160252.jpg",
+    "static/media/pl.box_2.jpg": "/static/media/pl.box_2.75c7a408bae293039753.jpg",
+    "static/media/pl.box_1.jpg": "/static/media/pl.box_1.1598bc30028bba17bdbf.jpg",
+    "index.html": "/index.html",
+    "main.e5ba4192.css.map": "/static/css/main.e5ba4192.css.map",
+    "main.53209b59.js.map": "/static/js/main.53209b59.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5ba4192.css",
+    "static/js/main.53209b59.js"
+  ]
+}
