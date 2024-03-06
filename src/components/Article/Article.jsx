@@ -118,7 +118,7 @@ function Article({
                     ))}
                   </div>
 
-                  <div className="zrzuta">
+                  <div className="zrzuta-m">
                     <div
                       className={imgClassName ? imgClassName : "photos-news-m"}
                     >

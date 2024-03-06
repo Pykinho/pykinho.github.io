@@ -14,7 +14,10 @@ function NavBar() {
                 <div className="wrapper">
                   <ul>
                     <li className="nav-text">
-                      <a href="/">
+                      <a
+                        href="
+https://youtu.be/-sA4shCUdCw?si=vBjHxcp2Td2pzGq2"
+                      >
                         Bankowość <br />
                         Spermy
                       </a>
@@ -41,7 +44,7 @@ function NavBar() {
                       </a>
                     </li>
                     <li className="nav-text">
-                      <a href="/">
+                      <a href="https://www.youtube.com/watch?v=3suB9y_KIXk&ab_channel=venditatiofag">
                         Relacje
                         <br /> Impotenckie
                       </a>
@@ -66,7 +69,7 @@ function NavBar() {
                 <div className="wrapper">
                   <ul>
                     <li className="nav-text-m">
-                      <a href="/">
+                      <a href="https://youtu.be/-sA4shCUdCw?si=vBjHxcp2Td2pzGq2">
                         Bankowość <br />
                         Spermy
                       </a>
@@ -93,7 +96,7 @@ function NavBar() {
                       </a>
                     </li>
                     <li className="nav-text-m">
-                      <a href="/">
+                      <a href="https://www.youtube.com/watch?v=3suB9y_KIXk&ab_channel=venditatiofag">
                         Relacje
                         <br /> Impotenckie
                       </a>

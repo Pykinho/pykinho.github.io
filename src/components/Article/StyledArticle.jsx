@@ -202,11 +202,11 @@ export const StyledArticle = styled.div`
   }
   .news-m {
     img {
-      height: 125px;
+      height: 11vh;
       min-height: 20px;
     }
 
-    photos-news-m {
+    .photos-news-m {
       display: flex;
       justify-content: center;
     }
@@ -214,6 +214,9 @@ export const StyledArticle = styled.div`
   .dupa-m {
     height: 30vh;
     width: 100%;
-    margin: 0px;
   }
+  .zrzuta-m {
+    a {
+      margin-left: 0px;
+    }
 `;

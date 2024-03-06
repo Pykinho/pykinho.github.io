@@ -35,7 +35,7 @@ export const StyledHome = styled.div`
     h1 {
       font: 32px "Hurme Geometric Sans 4 SemiBold";
       margin: 0;
-      padding-top: 420px;
+      padding-top: 60px;
       color: #ffffff;
       text-shadow: 0px 0px 12px #000000;
     }

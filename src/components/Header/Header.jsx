@@ -44,13 +44,15 @@ function Header() {
               </div>
               <div className="buttons">
                 <a
-                  href="https://online.ipopema.pl/creator"
+                  href="https://youtu.be/tJF4QqnhCTA?si=S2100CoY11q-VSzZ"
                   className="button"
                   target="_blank"
                 >
                   Logowanie
                 </a>
-                <button className="button">Otwórz konto</button>
+                <a href="https://www.pornhub.com/signup" className="button">
+                  Otwórz konto
+                </a>
               </div>
             </div>
           </div>
@@ -85,10 +87,15 @@ function Header() {
                 </a>
               </div>
               <div className="buttons-m">
-                <a href="https://online.ipopema.pl/creator" className="button">
+                <a
+                  href="https://youtu.be/tJF4QqnhCTA?si=S2100CoY11q-VSzZ"
+                  className="button"
+                >
                   Logowanie
                 </a>
-                <button className="button">Otwórz konto</button>
+                <a href="https://www.pornhub.com/signup" className="button">
+                  Otwórz konto
+                </a>
               </div>
             </div>
           </div>

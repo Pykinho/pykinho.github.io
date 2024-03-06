@@ -44,7 +44,7 @@ export const StyledFooter = styled.div`
     padding-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    width: 100%;
+    width: 100vw;
     font: 6px "Hurme Geometric Sans 4 SemiBold";
     color: white;
     padding-bottom: 10px;
@@ -62,7 +62,7 @@ export const StyledFooter = styled.div`
   .footer-m {
     margin-left: 10px;
     margin-right: 10px;
-    width: 100%;
+    width: 100vw;
     p {
       font: bold "Hurme Geometric Sans 4 SemiBold";
       font-size: 6px;
