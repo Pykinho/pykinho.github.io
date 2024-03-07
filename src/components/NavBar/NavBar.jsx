@@ -23,7 +23,7 @@ https://youtu.be/-sA4shCUdCw?si=vBjHxcp2Td2pzGq2"
                       </a>
                     </li>
                     <li className="nav-text">
-                      <a href="/">
+                      <a href="https://youtube.com/shorts/aE-ev7MLLGA?si=DXBox-5Y7W4KKypH">
                         Usługi <br /> cuckoldowe
                       </a>
                     </li>
@@ -75,7 +75,7 @@ https://youtu.be/-sA4shCUdCw?si=vBjHxcp2Td2pzGq2"
                       </a>
                     </li>
                     <li className="nav-text-m">
-                      <a href="/">
+                      <a href="https://youtube.com/shorts/aE-ev7MLLGA?si=DXBox-5Y7W4KKypH">
                         Usługi <br /> cuckoldowe
                       </a>
                     </li>
